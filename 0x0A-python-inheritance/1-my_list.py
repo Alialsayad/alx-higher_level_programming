@@ -6,10 +6,10 @@
 
 class MyList(list):
     """
-    MyList child of list
+    Custom MyList class
     """
     def print_sorted(self):
         """
-        print_sorted - prints the list, but sorted
+        Method for printing sorted list
         """
         print(sorted(self))
